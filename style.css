@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+.nav{
+    background-color:whitesmoke;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(216, 212, 212);
+}
+#logo{
+    height: 45px;
+    width: 45;
+
+}
+.preference{
+    border: 1px solid rgb(216, 212, 212) ;
+    padding: 0;
+    background-color: whitesmoke;
+    height: 36px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-top: none;
+}
+#confession{
+    border: none;
+    background-color:whitesmoke;
+    font-size:20px ;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 30%;
+}
+#gossips{
+    border: none;
+    background-color:whitesmoke;
+    font-size:20px ;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 20;
+}
+.top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+#profile{
+    height: 35px;
+    width: 35px;
+    background-color: brown;
+    border-radius: 50%;
+}
+#userName{
+    margin-left: 10px;
+}
+#seperation{
+    margin-left: 9px;
+    font-weight: bolder;
+    padding-bottom: 4px;
+}
+#timeStamp{
+    margin-left: 20px;
+}
+#content{
+    height: 150px;
+    width: 100%;
+    font-size: larger;
+
+}
+.commentBox{
+    display: flex;
+    height: 30px;
+    border-bottom: 1px solid rgb(216, 212, 212);
+    justify-content: center;
+    align-items: center;
+}
+#commentIcon{
+    margin-left: 4px;
+}
+#comments{
+    text-align: center;
+    font-weight: bolder;
+
+}
