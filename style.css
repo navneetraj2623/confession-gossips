@@ -4,6 +4,10 @@
     box-sizing: border-box;
     background-color: whitesmoke;
 }
+body {
+  padding-bottom: 55px; /* a little more than taskbar height */
+}
+
 
 .nav{
     background-color:whitesmoke;
@@ -50,6 +54,8 @@
     display: flex;
     align-items: center;
     margin-bottom: 2px;
+    margin-top: 4px;
+    margin-left: 5px;
 }
 #profile{
     height: 35px;
@@ -69,14 +75,15 @@
     margin-left: 20px;
 }
 #content{
-    height: auto;
+    margin-left: 5px;
     width: 100%;
     font-size: larger;
 
 }
 .commentBox{
+    margin-left: 5px;
     display: flex;
-    height: 30px;
+    height: 40px;
     border-bottom: 1px solid rgb(216, 212, 212);
     justify-content: center;
     align-items: center;
@@ -88,4 +95,24 @@
     text-align: center;
     font-weight: bolder;
 
+}
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 55px;
+  border-top: 1px solid rgb(216, 212, 212);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#add{
+    height: 54px;
+    width: 50px;
+    border-radius: 25%;
+    font-size: 41px;
+    font-weight: 900;
+    font-style: normal;
+    border: 1px solid rgb(216, 212, 212);
+    padding-bottom: 19px;
 }
