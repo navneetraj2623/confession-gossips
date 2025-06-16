@@ -10,6 +10,7 @@ body {
 
 
 .nav{
+    position: relative;
     background-color:whitesmoke;
     height: 50px;
     width: 100%;
@@ -33,6 +34,7 @@ body {
     justify-content: center; 
     align-items: center;
     border-top: none;
+    position: relative;
 }
 #confession{
     border: none;
@@ -55,7 +57,8 @@ body {
     align-items: center;
     margin-bottom: 2px;
     margin-top: 4px;
-    margin-left: 5px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 #profile{
     height: 35px;
@@ -75,18 +78,20 @@ body {
     margin-left: 20px;
 }
 #content{
-    margin-left: 5px;
+    margin-left: 12px;
     width: 100%;
     font-size: larger;
+    margin-right: 12px;
 
 }
 .commentBox{
-    margin-left: 5px;
+    margin-left: 12px;
     display: flex;
     height: 40px;
     border-bottom: 1px solid rgb(216, 212, 212);
     justify-content: center;
     align-items: center;
+    margin-right: 12px;
 }
 #commentIcon{
     margin-left: 4px;
@@ -105,6 +110,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 #add{
     height: 54px;
