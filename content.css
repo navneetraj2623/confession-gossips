@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentBox{
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 70vh;
+    margin-top: 5%;
+}
+label{
+    font-weight: bolder;
+    color: black;
+}
+.user{
+    border: none;
+}
+#usernametext{
+    color: blue;
+}
+#username{
+    border: none;
+}
+.content{
+    border: 1px solid rgb(145, 141, 141);
+    height: 40vh;
+}
+#gossips{
+    color: blue;
+}
+#post{
+    height: 100%;
+    border: none;
+}

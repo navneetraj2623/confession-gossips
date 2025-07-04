@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 </head>
 <body>
     <div class="contentBox">
-        <div id="userName">
-            <h4>Enter Username</h4>
-            <input type="text" name="Username" placeholder="Enter your username">
+<form id="Contents">
+        <div id="usernametext" aria-placeholder="" aria-required="">Enter Random Name</div>
+        <div class="user">
+            <input type="text" id="username"/>
         </div>
-        <div id="content">
-            <h4>Content</h4>
-            <input type="text" name="Content" placeholder="Give your Gossips">
+        <div id="gossips">Message</div>
+        <div class="content">
+            <textarea  id="post"></textarea>
         </div>
-        <button id="post">Post</button>
+        <button class="waves-effect wave-light btn">POST</button>
+    </form>
     </div>
 </body>
 </html>
