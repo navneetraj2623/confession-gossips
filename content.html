@@ -9,17 +9,19 @@
 </head>
 <body>
     <div class="contentBox">
-<form id="Contents">
-        <div id="usernametext" aria-placeholder="" aria-required="">Enter Random Name</div>
+<form id="contents">
+        <div id="usernametext" >Enter Random Name</div>
         <div class="user">
-            <input type="text" id="username"/>
+            <input type="text" placeholder="username"  id="userName" required/>
         </div>
         <div id="gossips">Message</div>
         <div class="content">
-            <textarea  id="post"></textarea>
+            <textarea  id="post" placeholder="Message" ></textarea>
         </div>
         <button class="waves-effect wave-light btn">POST</button>
     </form>
     </div>
 </body>
+<script type="module" src="app.js"></script>
+
 </html>

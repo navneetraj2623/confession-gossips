@@ -23,7 +23,8 @@ label{
     border: none;
 }
 #usernametext{
-    color: blue;
+    font-weight: bolder;
+    color:black;
 }
 #username{
     border: none;
@@ -33,9 +34,11 @@ label{
     height: 40vh;
 }
 #gossips{
-    color: blue;
+    font-weight: bolder;
+    color:black;
 }
 #post{
     height: 100%;
     border: none;
+    padding: 2px;
 }
